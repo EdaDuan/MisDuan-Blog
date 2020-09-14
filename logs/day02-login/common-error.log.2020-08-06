@@ -1,0 +1,2371 @@
+2020-07-31 09:02:53,815 ERROR 5344 [-/127.0.0.1/-/19ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-compose\index.js:42:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-compose\index.js:42:32)
+    at session (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-compose\index.js:42:32)
+
+pid: 5344
+hostname: 96ZSCWBEIJVPUXL
+
+2020-07-31 09:02:59,301 ERROR 5344 [-/127.0.0.1/-/7ms GET /public/login.html] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-compose\index.js:42:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-compose\index.js:42:32)
+    at session (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-compose\index.js:42:32)
+
+pid: 5344
+hostname: 96ZSCWBEIJVPUXL
+
+2020-07-31 13:31:34,648 ERROR 2772 nodejs.ClusterClientNoResponseError: client no response in 1989806ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 2772
+hostname: 96ZSCWBEIJVPUXL
+
+2020-07-31 13:34:26,669 ERROR 2772 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2772
+hostname: 96ZSCWBEIJVPUXL
+
+2020-07-31 14:58:34,247 ERROR 9624 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9624
+hostname: 96ZSCWBEIJVPUXL
+
+2020-07-31 15:20:47,578 ERROR 11800 [-/127.0.0.1/-/2ms GET /public/css/index.css] nodejs.ENOENTError: ENOENT: no such file or directory, stat 'E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\public\css\index.css'
+ENOENTError: ENOENT: no such file or directory, stat 'E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\public\css\index.css'
+errno: -4058
+code: "ENOENT"
+syscall: "stat"
+path: "E:\\ThreeCN\\web\\华清js\\nodejs\\node\\day02-login\\app\\public\\css\\index.css"
+name: "ENOENTError"
+pid: 11800
+hostname: 96ZSCWBEIJVPUXL
+
+2020-07-31 15:20:50,358 ERROR 11800 [-/127.0.0.1/-/1ms GET /public/css/index.css] nodejs.ENOENTError: ENOENT: no such file or directory, stat 'E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\public\css\index.css'
+ENOENTError: ENOENT: no such file or directory, stat 'E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\public\css\index.css'
+errno: -4058
+code: "ENOENT"
+syscall: "stat"
+path: "E:\\ThreeCN\\web\\华清js\\nodejs\\node\\day02-login\\app\\public\\css\\index.css"
+name: "ENOENTError"
+pid: 11800
+hostname: 96ZSCWBEIJVPUXL
+
+2020-07-31 18:26:33,488 ERROR 12084 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12084
+hostname: 96ZSCWBEIJVPUXL
+
+2020-07-31 18:29:40,921 ERROR 2296 [-/127.0.0.1/-/35ms GET /test] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blog.student' doesn't exist
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: select content from student
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blog.student' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "select content from student"
+name: "ER_NO_SUCH_TABLEError"
+pid: 2296
+hostname: 96ZSCWBEIJVPUXL
+
+2020-07-31 18:31:41,807 ERROR 4524 [-/127.0.0.1/-/17ms GET /test] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blog.student' doesn't exist
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: select content from student
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blog.student' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "select content from student"
+name: "ER_NO_SUCH_TABLEError"
+pid: 4524
+hostname: 96ZSCWBEIJVPUXL
+
+2020-07-31 18:46:43,288 ERROR 13172 [-/127.0.0.1/-/24ms GET /test] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blog.student' doesn't exist
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: select content from student
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blog.student' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "select content from student"
+name: "ER_NO_SUCH_TABLEError"
+pid: 13172
+hostname: 96ZSCWBEIJVPUXL
+
+2020-07-31 21:41:19,697 ERROR 12084 nodejs.ClusterClientNoResponseError: client no response in 3978806ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 12084
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 11:31:25,437 ERROR 12360 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12360
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 11:31:26,899 ERROR 12360 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12360
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 11:31:26,961 ERROR 12360 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12360
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 12:03:41,886 ERROR 588 [-/127.0.0.1/-/31ms POST /userRegist] nodejs.TypeError: this.ctx.service.registService.registS is not a function
+    at userController.regist (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:12:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 588
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 12:04:59,050 ERROR 9712 [-/127.0.0.1/-/15ms POST /userRegist] nodejs.TypeError: this.ctx.service.registService.registS is not a function
+    at userController.regist (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 9712
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 12:08:32,420 ERROR 12856 [-/127.0.0.1/-/24ms POST /userRegist] nodejs.TypeError: this.ctx.service.registService.registS is not a function
+    at userController.regist (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 12856
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 13:45:13,670 ERROR 9896 nodejs.ClusterClientNoResponseError: client no response in 2670499ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 9896
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 13:45:13,648 ERROR 12360 nodejs.ClusterClientNoResponseError: client no response in 2670528ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 12360
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 13:46:06,369 ERROR 12360 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12360
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 13:48:43,763 ERROR 2400 [-/127.0.0.1/-/26ms POST /userRegist] nodejs.TypeError: this.ctx.service.registService.registS is not a function
+    at userController.regist (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2400
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 13:50:01,667 ERROR 2400 [-/127.0.0.1/-/2ms POST /userRegist] nodejs.TypeError: this.ctx.service.registService.registS is not a function
+    at userController.regist (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2400
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 13:54:03,175 ERROR 13804 [-/127.0.0.1/-/15ms POST /userRegist] nodejs.TypeError: this.ctx.service.registService.registS is not a function
+    at userController.regist (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 13804
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 13:54:04,896 ERROR 13804 [-/127.0.0.1/-/3ms POST /userRegist] nodejs.TypeError: this.ctx.service.registService.registS is not a function
+    at userController.regist (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 13804
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 13:57:20,563 ERROR 1948 [-/127.0.0.1/-/24ms POST /userRegist] nodejs.ReferenceError: sql is not defined
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:10:50)
+    at userController.regist (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 1948
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 13:57:21,863 ERROR 1948 [-/127.0.0.1/-/4ms POST /userRegist] nodejs.ReferenceError: sql is not defined
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:10:50)
+    at userController.regist (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 1948
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 13:58:55,515 ERROR 15012 [-/127.0.0.1/-/19ms POST /userRegist] nodejs.ReferenceError: sql is not defined
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:10:50)
+    at userController.regist (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 15012
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 13:59:54,288 ERROR 7000 [-/127.0.0.1/-/18ms POST /userRegist] nodejs.ReferenceError: sql is not defined
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:10:50)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 7000
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 14:04:09,223 ERROR 3456 [-/127.0.0.1/-/16ms POST /userRegist] nodejs.ReferenceError: sql is not defined
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:10:50)
+    at userController.obj (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:19:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 3456
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 14:08:37,333 ERROR 15260 [-/127.0.0.1/-/22ms POST /userRegist] nodejs.ReferenceError: sql is not defined
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:10:50)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 15260
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 14:12:08,273 ERROR 12420 [-/127.0.0.1/-/16ms POST /userRegist] nodejs.ReferenceError: sql is not defined
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:10:50)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 12420
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 14:14:17,791 ERROR 5152 [-/127.0.0.1/-/16ms POST /userRegist] nodejs.ReferenceError: sql is not defined
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:7:50)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:13:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 5152
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 14:14:36,897 ERROR 13864 [-/127.0.0.1/-/17ms POST /userRegist] nodejs.ReferenceError: mag is not defined
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:14:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-bodyparser\index.js:95:5)
+    at async E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-static-cache\index.js:39:63
+
+pid: 13864
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 14:35:13,175 ERROR 9448 [-/127.0.0.1/-/8ms POST /userRegist] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'username' in 'field list'
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: insert into bloginuser(telno, password) values(username, pwd)
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'username' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "insert into bloginuser(telno, password) values(username, pwd)"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 9448
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 14:43:03,949 ERROR 2716 [-/127.0.0.1/-/21ms POST /userRegist] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.insert (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:124:30)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as insert] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:30:15)
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:14:44)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 2716
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 14:45:10,638 ERROR 14804 [-/127.0.0.1/-/21ms POST /userRegist] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:30:15)
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:14:44)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 14804
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 14:48:28,588 ERROR 1912 [-/127.0.0.1/-/18ms POST /userRegist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''13550950859'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: insert into bloginuser(telno, password) values '13550950859'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''13550950859'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert into bloginuser(telno, password) values '13550950859'"
+name: "ER_PARSE_ERRORError"
+pid: 1912
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 14:57:53,793 ERROR 3052 [-/127.0.0.1/-/3ms POST /userRegist] nodejs.ReferenceError: connection is not defined
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:18:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:15:15)
+    at async E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 3052
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 14:58:42,403 ERROR 15636 [-/127.0.0.1/-/18ms POST /userRegist] nodejs.ReferenceError: connection is not defined
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:18:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:15:15)
+    at async E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 15636
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 14:59:42,326 ERROR 14180 [-/127.0.0.1/-/6ms POST /userRegist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES '13550950859', '111'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO bloginuser('telno','password') VALUES '13550950859', '111'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES '13550950859', '111'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO bloginuser('telno','password') VALUES '13550950859', '111'"
+name: "ER_PARSE_ERRORError"
+pid: 14180
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-01 15:00:42,501 ERROR 14724 [-/127.0.0.1/-/19ms POST /userRegist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES '13550950859', '111'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO bloginuser('telno','password') VALUES '13550950859', '111'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES '13550950859', '111'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO bloginuser('telno','password') VALUES '13550950859', '111'"
+name: "ER_PARSE_ERRORError"
+pid: 14724
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 09:27:26,540 ERROR 11572 [-/127.0.0.1/-/3ms POST /userRegist] nodejs.ReferenceError: addSql is not defined
+    at registService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\registService.js:19:50)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:15:15)
+    at async E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11572
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 09:32:09,832 ERROR 12136 [-/127.0.0.1/-/20ms POST /userRegist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES ('13550950859', '123')' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO bloginuser('telno','password') VALUES ('13550950859', '123')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES ('13550950859', '123')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO bloginuser('telno','password') VALUES ('13550950859', '123')"
+name: "ER_PARSE_ERRORError"
+pid: 12136
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 09:33:26,223 ERROR 8608 [-/127.0.0.1/-/20ms POST /userRegist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES ('13550950859', '123')' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO bloginuser('telno','password') VALUES ('13550950859', '123')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES ('13550950859', '123')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO bloginuser('telno','password') VALUES ('13550950859', '123')"
+name: "ER_PARSE_ERRORError"
+pid: 8608
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 09:41:24,359 ERROR 7060 [-/127.0.0.1/-/25ms POST /userRegist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES ('13550950859', '123')' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO bloginuser('telno','password') VALUES ('13550950859', '123')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES ('13550950859', '123')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO bloginuser('telno','password') VALUES ('13550950859', '123')"
+name: "ER_PARSE_ERRORError"
+pid: 7060
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 09:43:41,188 ERROR 7060 [-/127.0.0.1/-/7ms POST /userRegist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES ('13550950859', '123')' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO bloginuser('telno','password') VALUES ('13550950859', '123')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES ('13550950859', '123')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO bloginuser('telno','password') VALUES ('13550950859', '123')"
+name: "ER_PARSE_ERRORError"
+pid: 7060
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 09:46:29,558 ERROR 11440 [-/127.0.0.1/-/21ms POST /userRegist] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES ('13550950859', '123')' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO bloginuser('telno','password') VALUES ('13550950859', '123')
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''telno','password') VALUES ('13550950859', '123')' at line 1"
+sqlState: "42000"
+index: 0
+sql: "INSERT INTO bloginuser('telno','password') VALUES ('13550950859', '123')"
+name: "ER_PARSE_ERRORError"
+pid: 11440
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 10:15:12,951 ERROR 2996 [-/127.0.0.1/-/25ms POST /userLogin] nodejs.ER_OPERAND_COLUMNSError: ER_OPERAND_COLUMNS: Operand should contain 1 column(s)
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: select (telno, password) from bloginuser
+code: "ER_OPERAND_COLUMNS"
+errno: 1241
+sqlMessage: "Operand should contain 1 column(s)"
+sqlState: "21000"
+index: 0
+sql: "select (telno, password) from bloginuser"
+name: "ER_OPERAND_COLUMNSError"
+pid: 2996
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 10:39:15,487 ERROR 11304 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11304
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 13:35:38,668 ERROR 11304 nodejs.ClusterClientNoResponseError: client no response in 4079755ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 11304
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 15:37:35,343 ERROR 11936 [-/127.0.0.1/-/6ms POST /delContent] nodejs.TypeError: this.ctx.service.registService.delContentS is not a function
+    at userController.delContentC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:22:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 11936
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 15:40:18,220 ERROR 13132 [-/127.0.0.1/-/20ms POST /delContent] nodejs.TypeError: this.ctx.service.registService.delContentS is not a function
+    at userController.delContentC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:21:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 13132
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 15:40:31,067 ERROR 13132 [-/127.0.0.1/-/1ms POST /delContent] nodejs.TypeError: this.ctx.service.registService.delContentS is not a function
+    at userController.delContentC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:21:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 13132
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 15:40:47,098 ERROR 13132 [-/127.0.0.1/-/1ms POST /delContent] nodejs.TypeError: this.ctx.service.registService.delContentS is not a function
+    at userController.delContentC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:21:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 13132
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 15:42:17,809 ERROR 14896 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14896
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 15:42:34,558 ERROR 13524 [-/127.0.0.1/-/5ms POST /delContent] nodejs.TypeError: this.ctx.service.registService.delContentS is not a function
+    at userController.delContentC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:22:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 13524
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 15:43:35,399 ERROR 13028 [-/127.0.0.1/-/14ms POST /delContent] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blog.article' doesn't exist
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: DELETE from article where article_id = 0
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blog.article' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "DELETE from article where article_id = 0"
+name: "ER_NO_SUCH_TABLEError"
+pid: 13028
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 16:05:42,679 ERROR 13696 [-/127.0.0.1/-/21ms POST /delContent] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from barticle where article_id = 0' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: DELETE * from barticle where article_id = 0
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from barticle where article_id = 0' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE * from barticle where article_id = 0"
+name: "ER_PARSE_ERRORError"
+pid: 13696
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 16:14:51,832 ERROR 872 [-/127.0.0.1/-/15ms POST /delContent] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from barticle where article_id = 1' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: DELETE * from barticle where article_id = 1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from barticle where article_id = 1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE * from barticle where article_id = 1"
+name: "ER_PARSE_ERRORError"
+pid: 872
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 16:14:54,005 ERROR 872 [-/127.0.0.1/-/3ms POST /delContent] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from barticle where article_id = 3' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: DELETE * from barticle where article_id = 3
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from barticle where article_id = 3' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE * from barticle where article_id = 3"
+name: "ER_PARSE_ERRORError"
+pid: 872
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 16:19:01,080 ERROR 11732 [-/127.0.0.1/-/14ms POST /delContent] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from barticle where article_id = 0' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: DELETE * from barticle where article_id = 0
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from barticle where article_id = 0' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE * from barticle where article_id = 0"
+name: "ER_PARSE_ERRORError"
+pid: 11732
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 16:19:31,950 ERROR 7268 [-/127.0.0.1/-/19ms POST /delContent] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from barticle where article_id = 0' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: DELETE * from barticle where article_id = 0
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from barticle where article_id = 0' at line 1"
+sqlState: "42000"
+index: 0
+sql: "DELETE * from barticle where article_id = 0"
+name: "ER_PARSE_ERRORError"
+pid: 7268
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 17:15:39,726 ERROR 14896 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14896
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 20:21:47,114 ERROR 14896 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14896
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-03 21:55:21,636 ERROR 14896 nodejs.ClusterClientNoResponseError: client no response in 5120912ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 14896
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-04 06:30:44,067 ERROR 1056 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1056
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-04 06:41:43,050 ERROR 14072 [-/127.0.0.1/-/14ms POST /userRegist] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'USERNAME' doesn't have a default value
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO bloginuser(telno, password) VALUES ('123', '123')
+code: "ER_NO_DEFAULT_FOR_FIELD"
+errno: 1364
+sqlMessage: "Field 'USERNAME' doesn't have a default value"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO bloginuser(telno, password) VALUES ('123', '123')"
+name: "ER_NO_DEFAULT_FOR_FIELDError"
+pid: 14072
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-04 06:41:54,803 ERROR 14072 [-/127.0.0.1/-/3ms POST /userRegist] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'USERNAME' doesn't have a default value
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO bloginuser(telno, password) VALUES ('13881859038', '123')
+code: "ER_NO_DEFAULT_FOR_FIELD"
+errno: 1364
+sqlMessage: "Field 'USERNAME' doesn't have a default value"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO bloginuser(telno, password) VALUES ('13881859038', '123')"
+name: "ER_NO_DEFAULT_FOR_FIELDError"
+pid: 14072
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-04 06:52:47,567 ERROR 14840 [-/127.0.0.1/-/21ms POST /userRegist] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'USERNAME' doesn't have a default value
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO bloginuser(telno, password) VALUES ('13881859038', '111')
+code: "ER_NO_DEFAULT_FOR_FIELD"
+errno: 1364
+sqlMessage: "Field 'USERNAME' doesn't have a default value"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO bloginuser(telno, password) VALUES ('13881859038', '111')"
+name: "ER_NO_DEFAULT_FOR_FIELDError"
+pid: 14840
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-04 08:43:12,569 ERROR 1056 nodejs.ClusterClientNoResponseError: client no response in 1912638ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 1056
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-04 09:02:33,136 ERROR 1056 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1056
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-04 13:33:27,611 ERROR 1056 nodejs.ClusterClientNoResponseError: client no response in 1833830ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 1056
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-04 21:54:54,605 ERROR 13480 nodejs.ClusterClientNoResponseError: client no response in 5234732ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 13480
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-04 22:14:03,031 ERROR 13480 nodejs.ClusterClientNoResponseError: client no response in 248273ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 13480
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 10:35:41,276 ERROR 17348 [-/127.0.0.1/-/5ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[barticle] WHERE  LIKE '%con%'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM [barticle] WHERE  LIKE '%con%'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[barticle] WHERE  LIKE '%con%'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM [barticle] WHERE  LIKE '%con%'"
+name: "ER_PARSE_ERRORError"
+pid: 17348
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 10:40:17,564 ERROR 1404 [-/127.0.0.1/-/4ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[barticle] WHERE  *  LIKE '%con%'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM [barticle] WHERE  *  LIKE '%con%'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[barticle] WHERE  *  LIKE '%con%'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM [barticle] WHERE  *  LIKE '%con%'"
+name: "ER_PARSE_ERRORError"
+pid: 1404
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 10:40:57,979 ERROR 17288 [-/127.0.0.1/-/3ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[barticle] WHERE  [article_id, title, content] LIKE '%con%'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM [barticle] WHERE  [article_id, title, content] LIKE '%con%'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[barticle] WHERE  [article_id, title, content] LIKE '%con%'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM [barticle] WHERE  [article_id, title, content] LIKE '%con%'"
+name: "ER_PARSE_ERRORError"
+pid: 17288
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 10:41:46,811 ERROR 16888 [-/127.0.0.1/-/5ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[barticle] WHERE  article_id LIKE '%con%' or title LIKE '%con%'or content  LIKE ' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM [barticle] WHERE  article_id LIKE '%con%' or title LIKE '%con%'or content  LIKE '%con%'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[barticle] WHERE  article_id LIKE '%con%' or title LIKE '%con%'or content  LIKE ' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM [barticle] WHERE  article_id LIKE '%con%' or title LIKE '%con%'or content  LIKE '%con%'"
+name: "ER_PARSE_ERRORError"
+pid: 16888
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 10:43:38,483 ERROR 17076 [-/127.0.0.1/-/4ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[barticle] WHERE  article_id LIKE '%con%'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM [barticle] WHERE  article_id LIKE '%con%'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[barticle] WHERE  article_id LIKE '%con%'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM [barticle] WHERE  article_id LIKE '%con%'"
+name: "ER_PARSE_ERRORError"
+pid: 17076
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 10:47:51,242 ERROR 17564 [-/127.0.0.1/-/3ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[barticle] WHERE article_id LIKE '%con%'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM [barticle] WHERE article_id LIKE '%con%'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[barticle] WHERE article_id LIKE '%con%'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM [barticle] WHERE article_id LIKE '%con%'"
+name: "ER_PARSE_ERRORError"
+pid: 17564
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 11:05:45,841 ERROR 17600 [-/127.0.0.1/-/3ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%con%' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE article_id = %con%
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%con%' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE article_id = %con%"
+name: "ER_PARSE_ERRORError"
+pid: 17600
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 11:06:51,929 ERROR 7060 [-/127.0.0.1/-/4ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%?%' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE article_id LIKE %?%
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%?%' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE article_id LIKE %?%"
+name: "ER_PARSE_ERRORError"
+pid: 7060
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 11:07:24,459 ERROR 7648 [-/127.0.0.1/-/4ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%NULL%' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE article_id LIKE %NULL%
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%NULL%' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE article_id LIKE %NULL%"
+name: "ER_PARSE_ERRORError"
+pid: 7648
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 11:09:08,227 ERROR 3068 [-/127.0.0.1/-/4ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%NULL%' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE article_id LIKE %NULL%
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%NULL%' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE article_id LIKE %NULL%"
+name: "ER_PARSE_ERRORError"
+pid: 3068
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 11:09:37,651 ERROR 14500 [-/127.0.0.1/-/3ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% NULL %' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE article_id LIKE % NULL %
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% NULL %' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE article_id LIKE % NULL %"
+name: "ER_PARSE_ERRORError"
+pid: 14500
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 11:11:26,602 ERROR 14128 [-/127.0.0.1/-/5ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% NULL %' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE article_id LIKE % NULL %
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% NULL %' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE article_id LIKE % NULL %"
+name: "ER_PARSE_ERRORError"
+pid: 14128
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 11:19:58,033 ERROR 8752 [-/127.0.0.1/-/4ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[article_id, title, content, number] LIKE '% NULL %'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE [article_id, title, content, number] LIKE '% NULL %'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[article_id, title, content, number] LIKE '% NULL %'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE [article_id, title, content, number] LIKE '% NULL %'"
+name: "ER_PARSE_ERRORError"
+pid: 8752
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 11:21:43,348 ERROR 13604 [-/127.0.0.1/-/5ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[article_id] LIKE '% NULL %' or title LIKE '% ? %' or content LIKE '% ? %'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE [article_id] LIKE '% NULL %' or title LIKE '% ? %' or content LIKE '% ? %'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[article_id] LIKE '% NULL %' or title LIKE '% ? %' or content LIKE '% ? %'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE [article_id] LIKE '% NULL %' or title LIKE '% ? %' or content LIKE '% ? %'"
+name: "ER_PARSE_ERRORError"
+pid: 13604
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 11:21:44,383 ERROR 13604 [-/127.0.0.1/-/2ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[article_id] LIKE '% NULL %' or title LIKE '% ? %' or content LIKE '% ? %'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE [article_id] LIKE '% NULL %' or title LIKE '% ? %' or content LIKE '% ? %'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[article_id] LIKE '% NULL %' or title LIKE '% ? %' or content LIKE '% ? %'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE [article_id] LIKE '% NULL %' or title LIKE '% ? %' or content LIKE '% ? %'"
+name: "ER_PARSE_ERRORError"
+pid: 13604
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 11:21:44,926 ERROR 13604 [-/127.0.0.1/-/2ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[article_id] LIKE '% NULL %' or title LIKE '% ? %' or content LIKE '% ? %'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE [article_id] LIKE '% NULL %' or title LIKE '% ? %' or content LIKE '% ? %'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[article_id] LIKE '% NULL %' or title LIKE '% ? %' or content LIKE '% ? %'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE [article_id] LIKE '% NULL %' or title LIKE '% ? %' or content LIKE '% ? %'"
+name: "ER_PARSE_ERRORError"
+pid: 13604
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 11:22:17,696 ERROR 2184 [-/127.0.0.1/-/3ms GET /search] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[article_id LIKE '% NULL %'] or [title LIKE '% ? %'] or [content LIKE '% ? %']' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE [article_id LIKE '% NULL %'] or [title LIKE '% ? %'] or [content LIKE '% ? %']
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[article_id LIKE '% NULL %'] or [title LIKE '% ? %'] or [content LIKE '% ? %']' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE [article_id LIKE '% NULL %'] or [title LIKE '% ? %'] or [content LIKE '% ? %']"
+name: "ER_PARSE_ERRORError"
+pid: 2184
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 11:22:40,975 ERROR 14196 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14196
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 12:35:55,963 ERROR 14196 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14196
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 13:31:08,595 ERROR 14196 nodejs.ClusterClientNoResponseError: client no response in 1561727ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 14196
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 14:06:32,637 ERROR 14196 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14196
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 14:21:44,593 ERROR 2292 [-/127.0.0.1/-/20ms POST /userLogin] nodejs.ReferenceError: document is not defined
+    at userService.loginS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\userService.js:10:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async userController.login (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:6:15)
+    at async E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 2292
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 14:42:37,144 ERROR 12888 [-/127.0.0.1/-/25ms POST /userRegist] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'pwd' in 'field list'
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO buser(phone, username, pwd) VALUES (NULL, 'aaa111', '短短')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'pwd' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO buser(phone, username, pwd) VALUES (NULL, 'aaa111', '短短')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12888
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 14:43:57,272 ERROR 12888 [-/127.0.0.1/-/4ms POST /userRegist] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'pwd' in 'field list'
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO buser(phone, username, pwd) VALUES (NULL, 'aaa111', '短短')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'pwd' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO buser(phone, username, pwd) VALUES (NULL, 'aaa111', '短短')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12888
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 14:43:58,527 ERROR 12888 [-/127.0.0.1/-/4ms POST /userRegist] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'pwd' in 'field list'
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO buser(phone, username, pwd) VALUES (NULL, 'aaa111', '短短')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'pwd' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO buser(phone, username, pwd) VALUES (NULL, 'aaa111', '短短')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12888
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 14:49:47,181 ERROR 14012 [-/127.0.0.1/-/8ms POST /userRegist] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'pwd' in 'field list'
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO buser(username, pwd, phone) VALUES ('duandaun', 'aaa', '13550950860')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'pwd' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO buser(username, pwd, phone) VALUES ('duandaun', 'aaa', '13550950860')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 14012
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 15:04:53,036 ERROR 14056 [-/127.0.0.1/-/18ms POST /delarticle] nodejs.TypeError: Cannot read property 'delarticleS' of undefined
+    at userController.delarticleC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\articleController.js:7:52)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 14056
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 15:28:53,577 ERROR 16652 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16652
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 15:42:53,188 ERROR 15972 [-/127.0.0.1/-/22ms POST /searchArticle] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE article_id LIKE '%this%' or title LIKE ?;
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE article_id LIKE '%this%' or title LIKE ?;"
+name: "ER_PARSE_ERRORError"
+pid: 15972
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 15:43:59,545 ERROR 17244 [-/127.0.0.1/-/24ms POST /searchArticle] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% 'this' % or title LIKE '% 'this' %'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE article_id LIKE % 'this' % or title LIKE '% 'this' %';
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% 'this' % or title LIKE '% 'this' %'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE article_id LIKE % 'this' % or title LIKE '% 'this' %';"
+name: "ER_PARSE_ERRORError"
+pid: 17244
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 15:44:35,463 ERROR 17776 [-/127.0.0.1/-/23ms POST /searchArticle] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'this' %' or title LIKE '% 'this' %'' at line 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: SELECT * FROM barticle WHERE article_id LIKE '% 'this' %' or title LIKE '% 'this' %';
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'this' %' or title LIKE '% 'this' %'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM barticle WHERE article_id LIKE '% 'this' %' or title LIKE '% 'this' %';"
+name: "ER_PARSE_ERRORError"
+pid: 17776
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 20:02:21,374 ERROR 2228 [-/127.0.0.1/-/32ms POST /userRegist] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'PHONE' at row 1
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: INSERT INTO buser(username, password, phone) VALUES ('13550950850', 'aaa111', '')
+code: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELD"
+errno: 1366
+sqlMessage: "Incorrect integer value: '' for column 'PHONE' at row 1"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO buser(username, password, phone) VALUES ('13550950850', 'aaa111', '')"
+name: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError"
+pid: 2228
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 21:17:28,636 ERROR 16028 nodejs.ClusterClientNoResponseError: client no response in 2956229ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 16028
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-05 22:32:01,600 ERROR 16028 nodejs.ClusterClientNoResponseError: client no response in 2392309ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 16028
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-06 08:16:45,661 ERROR 7620 nodejs.ClusterClientNoResponseError: client no response in 1335729ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 7620
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-06 09:41:05,664 ERROR 7620 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7620
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-06 11:50:03,182 ERROR 2260 [-/127.0.0.1/-/10ms GET /showArticle] nodejs.TypeError: this.ctx.app.mysql.query is not a function
+    at articleService.showArticleS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\articleService.js:8:44)
+    at userController.showArticleC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\articleController.js:4:53)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 2260
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-06 12:14:38,614 ERROR 11744 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11744
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-06 13:32:26,597 ERROR 11744 nodejs.ClusterClientNoResponseError: client no response in 2647745ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 11744
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-06 15:38:42,045 ERROR 9212 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9212
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-06 19:01:25,971 ERROR 13824 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13824
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-06 20:09:33,626 ERROR 13824 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13824
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-06 21:52:20,777 ERROR 13824 nodejs.ClusterClientNoResponseError: client no response in 5007035ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 13824
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-06 23:34:57,346 ERROR 13824 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13824
+hostname: 96ZSCWBEIJVPUXL
+

@@ -1,0 +1,288 @@
+2020-08-07 00:26:32,409 ERROR 16872 [-/127.0.0.1/-/20ms POST /userRegist] nodejs.ReferenceError: path is not defined
+    at userService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\userService.js:32:14)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:17:50)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 16872
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 00:28:58,268 ERROR 7852 [-/127.0.0.1/-/31ms POST /userRegist] nodejs.ReferenceError: path is not defined
+    at userService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\userService.js:30:14)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:17:50)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 7852
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 00:31:09,723 ERROR 2188 [-/127.0.0.1/-/29ms POST /userRegist] nodejs.ReferenceError: path is not defined
+    at userService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\userService.js:31:14)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:17:50)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 2188
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 00:31:19,266 ERROR 2188 [-/127.0.0.1/-/11ms POST /userRegist] nodejs.ReferenceError: path is not defined
+    at userService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\userService.js:31:14)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:17:50)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 2188
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 00:33:21,916 ERROR 15660 [-/127.0.0.1/-/26ms POST /userRegist] nodejs.ReferenceError: path is not defined
+    at userService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\userService.js:31:14)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:17:50)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 15660
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 00:34:54,126 ERROR 8356 [-/127.0.0.1/-/26ms POST /userRegist] nodejs.ReferenceError: path is not defined
+    at userService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\userService.js:31:14)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:17:50)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 8356
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 00:35:38,018 ERROR 13824 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13824
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 00:42:35,399 ERROR 12188 [-/::1/-/28ms POST /userRegist] nodejs.ENOENTError: ENOENT: no such file or directory, copyfile 'C:\Users\ADMINI~1\AppData\Local\Temp\egg-multipart-tmp\day02-login\2020\08\07\00\5a7dd9af-5d72-4ec9-8df8-2fd5fbbf15a0.png' -> 'E:\ThreeCN\web\华清js\nodejs\node\day02-login\app/public/upload/1596732155397contImg3.png'
+    at Object.copyFileSync (fs.js:1941:3)
+    at userService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\userService.js:36:14)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:17:50)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+errno: -4058
+syscall: "copyfile"
+code: "ENOENT"
+path: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\day02-login\\2020\\08\\07\\00\\5a7dd9af-5d72-4ec9-8df8-2fd5fbbf15a0.png"
+dest: "E:\\ThreeCN\\web\\华清js\\nodejs\\node\\day02-login\\app/public/upload/1596732155397contImg3.png"
+name: "ENOENTError"
+pid: 12188
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 00:44:15,757 ERROR 13516 [-/::1/-/27ms POST /userRegist] nodejs.ENOENTError: ENOENT: no such file or directory, copyfile 'C:\Users\ADMINI~1\AppData\Local\Temp\egg-multipart-tmp\day02-login\2020\08\07\00\fba3a240-fc3c-49f9-974d-de8d46e9e3a1.png' -> 'E:\ThreeCN\web\华清js\nodejs\node\day02-login\app/public/upload/1596732255756contImg3.png'
+    at Object.copyFileSync (fs.js:1941:3)
+    at userService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\userService.js:36:14)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:17:50)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+errno: -4058
+syscall: "copyfile"
+code: "ENOENT"
+path: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\day02-login\\2020\\08\\07\\00\\fba3a240-fc3c-49f9-974d-de8d46e9e3a1.png"
+dest: "E:\\ThreeCN\\web\\华清js\\nodejs\\node\\day02-login\\app/public/upload/1596732255756contImg3.png"
+name: "ENOENTError"
+pid: 13516
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 00:45:47,117 ERROR 10844 [-/::1/-/28ms POST /userRegist] nodejs.ENOENTError: ENOENT: no such file or directory, copyfile 'C:\Users\ADMINI~1\AppData\Local\Temp\egg-multipart-tmp\day02-login\2020\08\07\00\808648c1-df19-4bae-bbc1-e627780ed3e4.png' -> 'E:\ThreeCN\web\华清js\nodejs\node\day02-login\app/public/upload/1596732347115contImg3.png'
+    at Object.copyFileSync (fs.js:1941:3)
+    at userService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\userService.js:36:14)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:17:50)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+errno: -4058
+syscall: "copyfile"
+code: "ENOENT"
+path: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\day02-login\\2020\\08\\07\\00\\808648c1-df19-4bae-bbc1-e627780ed3e4.png"
+dest: "E:\\ThreeCN\\web\\华清js\\nodejs\\node\\day02-login\\app/public/upload/1596732347115contImg3.png"
+name: "ENOENTError"
+pid: 10844
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 00:46:32,228 ERROR 3068 [-/::1/-/29ms POST /userRegist] nodejs.ENOENTError: ENOENT: no such file or directory, copyfile 'C:\Users\ADMINI~1\AppData\Local\Temp\egg-multipart-tmp\day02-login\2020\08\07\00\a578b8cc-1540-4550-9a92-44bb549e0228.png' -> 'E:\ThreeCN\web\华清js\nodejs\node\day02-login\app/public/upload/1596732392227contImg3.png'
+    at Object.copyFileSync (fs.js:1941:3)
+    at userService.registS (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\service\userService.js:36:14)
+    at userController.registC (E:\ThreeCN\web\华清js\nodejs\node\day02-login\app\controller\userController.js:17:50)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\@eggjs\router\lib\router.js:190:18
+errno: -4058
+syscall: "copyfile"
+code: "ENOENT"
+path: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\day02-login\\2020\\08\\07\\00\\a578b8cc-1540-4550-9a92-44bb549e0228.png"
+dest: "E:\\ThreeCN\\web\\华清js\\nodejs\\node\\day02-login\\app/public/upload/1596732392227contImg3.png"
+name: "ENOENTError"
+pid: 3068
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 00:47:42,336 ERROR 15132 [-/::1/-/33ms POST /userRegist] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blog.goods' doesn't exist
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: insert into goods(phone, password, username, url)values('12', '', '12', 'http://127.0.0.1:7003/public/upload/1596732462328contImg3.png')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blog.goods' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "insert into goods(phone, password, username, url)values('12', '', '12', 'http://127.0.0.1:7003/public/upload/1596732462328contImg3.png')"
+name: "ER_NO_SUCH_TABLEError"
+pid: 15132
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 00:48:51,097 ERROR 17240 [-/::1/-/32ms POST /userRegist] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blog.goods' doesn't exist
+    at Query.Sequence._packetToError (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:304:12)
+    --------------------
+    at Pool.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:65:19)
+    at E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\co\index.js:54:5
+    sql: insert into goods(phone, password, username, url)values('15982282353', '', 'lili', 'http://127.0.0.1:7003/public/upload/1596732531090contImg3.png')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'blog.goods' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "insert into goods(phone, password, username, url)values('15982282353', '', 'lili', 'http://127.0.0.1:7003/public/upload/1596732531090contImg3.png')"
+name: "ER_NO_SUCH_TABLEError"
+pid: 17240
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 08:37:00,648 ERROR 1720 nodejs.ClusterClientNoResponseError: client no response in 2040174ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 1720
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 11:06:42,275 ERROR 1720 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1720
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 15:38:33,213 ERROR 1720 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1720
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 16:51:00,964 ERROR 1720 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1720
+hostname: 96ZSCWBEIJVPUXL
+
+2020-08-07 22:49:11,869 ERROR 5428 nodejs.ClusterClientNoResponseError: client no response in 8485114ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ClusterClientNoResponseError"
+pid: 5428
+hostname: 96ZSCWBEIJVPUXL
+

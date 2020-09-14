@@ -1,0 +1,288 @@
+@import 'reset.css';
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/iconfont.woff2') format('woff2'), url('../font/iconfont.woff') format('woff'), url('../font/iconfont.ttf') format('truetype'), url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*@charset:设置字符集*/
+
+/*@import：导入其他样式文件。  （模块化）*/
+
+/*@meida：媒体查询（查尺寸、设备等）*/
+
+/*@font-face：自定义字体*/
+
+body {
+  background-color: #f5deb3;
+}
+
+.color {
+  height: 4px;
+  background-color: #ffcc40;
+}
+
+/*head*/
+
+#head {
+  background-color: #f5deb3;
+  height: 144px;
+}
+
+#head ul {
+  height: 40px;
+}
+
+#head ul li {
+  margin-top: 50px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffcc40;
+  padding: 1px 9px;
+  font-family: 华文楷体;
+}
+
+#head ul .headItem:hover {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 7px;
+  color: #ffcc40;
+  box-shadow: white;
+}
+
+#head .logo {
+  color: #ffcc40;
+  font-size: 50px;
+  font-family: 华文行楷;
+}
+
+#head .searchBox {
+  width: 190px;
+  height: 30px;
+  margin-top: 3px;
+  margin-left: 30px;
+  box-sizing: border-box;
+  border: 2px solid #ffcc40;
+  border-right: none;
+  /*border-radius: 20px 0 0 20px;*/
+  position: relative;
+}
+
+#head .searchBox input {
+  width: 188px;
+  height: 25px;
+  line-height: 25px;
+  color: red;
+  outline: none;
+  /*margin-left: 10px;*/
+  margin-top: 1px;
+  border: none;
+  text-indent: 5px;
+  position: absolute;
+  z-index: 2;
+  background-color: transparent;
+}
+
+#head .searchButton {
+  width: 54px;
+  height: 30px;
+  margin-top: 3px;
+  margin-right: 40px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  color: #f5deb3;
+  border: none;
+  cursor: pointer;
+  font-family: 华文楷体;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ffcc40;
+  border-radius: 0 20px 20px 0;
+}
+
+/*Middle*/
+
+#leftNav {
+  width: 220px;
+  margin-right: 20px;
+  border-radius: 2px;
+  font-family: 华文楷体;
+}
+
+#leftNav .headImg {
+  margin: 7px auto;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #f5deb3;
+  border-radius: 7px;
+}
+
+#leftNav .headImg div img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding-bottom: 7px;
+}
+
+#leftNav .headImg .active {
+  font-weight: bold;
+}
+
+#leftNav .bottomComtent {
+  margin: 7px auto;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #f5deb3;
+  border-radius: 7px;
+}
+
+#leftNav .bottomComtent .title {
+  font-size: 20px;
+  border-bottom: 1px solid #ffffff;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+#leftNav .bottomComtent ul li {
+  text-indent: 2em;
+  margin-top: 3px;
+  padding: 3px;
+  color: #ffcc40;
+  font-weight: bold;
+}
+
+#leftNav .bottomComtent ul li:hover {
+  color: #ff5500;
+  cursor: pointer;
+  background-color: #111111;
+  box-shadow: black;
+}
+
+#leftNav .codeImg {
+  border-top: 1px solid;
+  padding-top: 5px;
+  margin: 7px auto;
+  background-color: #f5deb3;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#leftNav .codeImg img {
+  width: 125px;
+  height: 125px;
+  padding-top: 15px;
+}
+
+#rightContent {
+  width: 950px;
+  /*background-color: #444444;*/
+  border-radius: 7px;
+}
+
+#rightContent .rightTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: #ffcc40;
+  padding: 10px;
+}
+
+#rightContent .card {
+  background-color: #887979;
+  margin-bottom: 20px;
+  padding: 19px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(235, 195, 195, 0.5);
+  box-shadow: inset 0 1px 1px rgba(235, 195, 195, 0.5);
+  border-radius: 7px;
+}
+
+#rightContent .article a {
+  color: #f4f4f4;
+}
+
+#rightContent .article a:hover {
+  cursor: pointer;
+  color: #ffcc40;
+}
+
+#rightContent .article .number {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+#rightContent .article .name {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 45px;
+  border-bottom: 1px solid;
+}
+
+#rightContent .article .summary {
+  padding-top: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.42857143;
+}
+
+#rightContent .article .time {
+  position: relative;
+  text-align: right;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+.ConTable {
+  width: 950px;
+  background-color: #f5deb3;
+  border: 2px solid #ffcc40;
+  line-height: 15px;
+  font-size: 20px;
+  color: #887979;
+}
+
+.center {
+  text-align: center;
+}
+
+.Contd {
+  line-height: 30px;
+}
+
+.backBtn {
+  position: absolute;
+  top: 148px;
+  width: 80px;
+  height: 30px;
+  border: 1px solid #ffcc40;
+  background-color: #ffcc40;
+  color: #887979;
+  text-align: center;
+  border-radius: 50%;
+}
+
+tr {
+  height: 50px;
+  line-height: 50px;
+}
+
+/*bottom*/
+
+#bottomMeassage {
+  height: 50px;
+  background-color: #f5deb3;
+}

@@ -1,0 +1,18 @@
+2020-09-14 12:56:10,766 INFO 12676 [egg-schedule]: register schedule E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-14 12:56:10,766 INFO 12676 [egg-schedule]: register schedule E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-14 12:56:10,766 INFO 12676 [egg-schedule]: register schedule E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-14 12:56:11,937 INFO 15388 [Timer] E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 56028068ms at 2020-09-15 04:30:00.004
+2020-09-14 12:56:11,937 INFO 15388 [Timer] E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 39828063ms at 2020-09-15 00:00:00.000
+2020-09-14 12:56:11,938 INFO 15388 [Timer] E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 39829063ms at 2020-09-15 00:00:01.001
+2020-09-14 12:56:12,622 INFO 12548 [egg-schedule]: register schedule E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-14 12:56:12,622 INFO 12548 [egg-schedule]: register schedule E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-14 12:56:12,622 INFO 12548 [egg-schedule]: register schedule E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-14 12:56:13,735 INFO 14920 [egg-schedule]: register schedule E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-14 12:56:13,735 INFO 14920 [egg-schedule]: register schedule E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-14 12:56:13,735 INFO 14920 [egg-schedule]: register schedule E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-14 12:57:24,981 INFO 16668 [Timer] E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 55955024ms at 2020-09-15 04:30:00.005
+2020-09-14 12:57:24,983 INFO 16668 [Timer] E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 39755019ms at 2020-09-15 00:00:00.001
+2020-09-14 12:57:24,983 INFO 16668 [Timer] E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 39756017ms at 2020-09-15 00:00:01.000
+2020-09-14 12:57:24,772 INFO 12372 [egg-schedule]: register schedule E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-14 12:57:24,772 INFO 12372 [egg-schedule]: register schedule E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-14 12:57:24,772 INFO 12372 [egg-schedule]: register schedule E:\ThreeCN\web\huaqing\nodejs\node\blog\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

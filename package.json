@@ -1,0 +1,15 @@
+{
+  "name": "day02-login",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "egg": "^2.27.0",
+    "egg-bin": "^4.15.0",
+    "egg-mysql": "^3.0.0",
+    "scripts": "^0.1.0"
+  },
+  "scripts": {
+    "dev": "egg-bin dev"
+  }
+}

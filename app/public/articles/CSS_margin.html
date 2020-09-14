@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="Chen" content="CSS中的margin塌陷、margin合并 ">
+    <title>margin塌陷、margin合并</title>
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/article.css">
+    <!--设置根目录，target-->
+    <base href="" target="_parent">
+</head>
+<body>
+<div class="color"></div>
+<!--Head-->
+<div id="head" class="clearfix leayer">
+    <ul class="fl">
+        <li>
+            <a href="../index.html" class="logo">Chen'Blog - 所学与所思</a>
+        </li>
+    </ul>
+    <ul class="fr clearfix">
+        <li class="fl headItem aboutBlog">关于博客</li>
+        <li class="fl headItem connectMe">联系博主</li>
+        <li class="fl">
+            <div class="searchBox fl">
+                <input type="text" class="inputText" onfocus="search(this)" onblur="blurr(this)">
+                <div class="placeholder">
+                    <span class="iconfont">&#xe60f</span>
+                    <span>输入关键字搜索博客</span>
+                </div>
+            </div>
+            <button class="searchButton fl" onclick="searchclick(this)">搜 索</button>
+        </li>
+    </ul>
+</div>
+<!--Middle-->
+<div id="middle" class="clearfix leayer">
+    <!--leftNav-->
+    <div id="leftNav" class="fl">
+        <div class="headImg">
+            <div>
+                <img src="../img/head.png" alt="">
+            </div>
+            <span>主页已经被访问</span><span class="numVisitorALl"></span><span>次</span>
+        </div>
+        <div class="bottomComtent">
+            <div class="title">文章归档:</div>
+            <ul class = "catTag"></ul>
+        </div>
+        <div class="codeImg">
+            <span>相关资料关注公众号后获取：</span>
+            <div>
+                <img src="../img/codeImg.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--rightContent-->
+    <div id="rightContent" class="fr">
+        <div class="writer">
+            <h1>CSS-margin塌陷、margin合并</h1>
+            <p class="center" style="text-indent: 0em;line-height: 2; font-size: 12px">时间：2020-3-2</p>
+            <div class="line"></div>
+            <p><strong>摘要：</strong>本次博客主要记录两个经典css的bug：margin塌陷与margin合并。
+            </p>
+            <p>在讲这个两个问题之前我们先用html与css构建一个黑色的方框包裹一个红色方框的效果以便于后续的对比</p>
+            <pre><xmp>            <div class="wrapper">
+                <div class="box"></div>
+            </div>
+
+            /*css部分*/：
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            .wrapper{
+                width: 100px;
+                height: 100px;
+                margin-left: 100px;
+                background-color: black;
+            }
+            .box{
+                width:50px;
+                height: 50px;
+                background-color: red;
+            }</xmp></pre>
+            <p>效果：</p>
+            <img src="images/CSS/imgMar1.jpg" alt="Margin塌陷" style="width: 50%">
+            <h2>一、Margin塌陷</h2>
+            <h3>1.1、问题描述</h3>
+            <p>我们在上述代码上在红色方框的css中添加：margin-left：50px；也就是期望红色的方框在黑色方框中向右平移50px：</p>
+            <pre><xmp>.box{
+	margin-left:50px;
+        width:50px;
+        height: 50px;
+        background-color: red;
+}</xmp></pre>
+            <p>效果：</p>
+            <img src="images/CSS/imgMar2.jpg" alt="Margin塌陷" style="width: 50%">
+            <p>我们会发现渲染效果并不是和我们预想的一样，而是直接带着黑色方框一起向下平移了50px。这个渲染效果与我们设想效果的不一致就是margin塌陷造成的。
+                <strong>margin塌陷其实是一种很形象化的说话。把margin-top看作一个顶棚。黑色的顶棚在红色的顶棚上面。本来红色的顶棚是要相对于黑色下移的，但是黑色的顶棚塌了，所以红色就直接相对于浏览器下移了。</strong>
+            </p>
+            <h3>1.2、解决办法</h3>
+            <p>1)顶棚塌陷了修好顶棚：在黑色方框的css上加上：<strong>border-top:1px solid black。</strong></p>
+            <pre><xmp>.wrapper{
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+        background-color: black;
+        border-top:1px solid black;
+}</xmp></pre>
+            <p>这个方法看上去就不太好。在公司里一般代码审核不能通过</p>
+            <p>2)触发BFC：</p>
+            <p>凡是带有以下属性中的一种或几种的元素，都能改变margin塌陷的问题：</p>
+            <p>1)position：absolute;2）display：inline-block;3）float：left/right;4）overflow:hidden</p>
+            <p>比如在黑色方框中加上overflow: hidden:</p>
+            <pre><xmp>.wrapper{
+        overflow: hidden;
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+        background-color: black;
+}</xmp></pre>
+            <p>上述两种解决办法的效果：</p>
+            <img src="images/CSS/imgMar3.jpg" alt="Margin合并" style="width: 50%">
+            <h2>二、Margin合并</h2>
+            <h3>2.1、问题描述</h3>
+            <p>比如以下两个盒子，左边的margin-right：50px；右边的margin-left：60px：最后两者之间的间距为60px。这就是margin合并（取二者的最大值）：</p>
+            <img src="images/CSS/imgMar4.jpg" alt="Margin合并" style="width: 50%">
+            <h3>2.2、解决办法</h3>
+            <p>margin合并无需解决，计算好两个盒子之间的间距就行。</p>
+
+    </div>
+    </div>
+</div>
+<!--bottomMeassage-->
+<div id="bottomMeassage" class="leayer"></div>
+
+
+</body>
+<script src="../js/article.js"></script>
+</html>

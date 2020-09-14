@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>MisDuan'Blog</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="../css/LogandReg.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <script src="../js/axios.min.js"></script>
+  <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+  <script src="../js/login.js"></script>
+  <script src="../js/register.js"></script>
+  <script src="../js/index.js"></script>
+  <!--设置根目录，target-->
+  <base href="" target="_parent">
+</head>
+
+<body>
+  <div class="color"></div>
+  <!--Head-->
+  <div id="head" class="clearfix leayer">
+    <ul class="fl">
+      <li>
+        <a href="javascript:;" class="logo">MisDuan'Blog - 伴你成长</a>
+      </li>
+    </ul>
+    <ul class="fr clearfix">
+      <li class="fl headItem aboutBlog">关于博客</li>
+      <li class="fl headItem connectMe">联系博主</li>
+      <li class="fl">
+        <div class="searchBox fl" id="search">
+          <input type="text" class="s_input" placeholder="请输入...">
+        </div>
+        <button class="searchButton fl" onclick="searchAllClick()">搜 索</button>
+      </li>
+    </ul>
+  </div>
+  <!--Middle-->
+  <div id="middle" class="clearfix leayer">
+    <!--leftNav-->
+    <div id="leftNav" class="fl">
+      <div class="headImg">
+        <div>
+          <img src="../img/head.jpg" alt="">
+        </div>
+        <h5 class="status">欢迎使用、请登录</h5></br>
+        <button onclick="loginOpen()" class="loginOpen">登录</button>
+        <button onclick="registerOpen()" class="registerOpen">注册</button>
+      </div>
+      <div class="bottomComtent">
+        <div class="title">文章归档:</div>
+        <ul class="catTag"></ul>
+      </div>
+      <div class="codeImg">
+        <span>更多<span style="color: #ffcc40">web前后端、语义分割</span></br>资料关注公众号后获取：</span>
+        <div>
+          <img src="../img/codeImg.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!--rightContent-->
+    <div id="rightContent" class="fr">
+      <p class="rightTitle">文章</p>
+      <div class="article">
+      </div>
+    </div>
+  </div>
+  <!--bottomMeassage-->
+  <div id="bottomMeassage" class="leayer"></div>
+  <!-- 用户登录界面 -->
+  <div id="userLogin">
+    <div class="box">
+      <input class="close" type="button" value="ｘ" onClick="loginclose()">
+      <div class="login">
+        <h1>欢迎使用</h1>
+        账号：<input id="userphone" type="text" name="username"><br />
+        密码：<input id="pwd" type="password"><br />
+        <button onclick="loginBtn()">登录</button><br />
+        <div id="jump" onClick="Ltoregister()">没有账号？请注册</div>
+      </div>
+    </div>
+  </div>
+  <!-- 用户注册界面 -->
+  <div id="userRegister">
+    <div class="box">
+      <input class="close" type="button" value="ｘ" onClick="registerclose()" style="cursor: hand;">
+      <div class="register">
+        <h3>欢迎注册</h3>
+        <div class="uploadImage" onclick="axiosupload()">
+          <input type="file" value="上传文件" id="file" multiple onchange="upImg()" />
+          <p>点击上传</p>
+        </div>
+        手机号：<input id="phone" type="text" name="phone"><br />
+        用户名：<input id="username" type="text" name="username"><br />
+        密码：<input id="password" type="password" name="pwd"><br />
+        <button onclick="registertBtn()">注册</button><br />
+        <div id="jump" onClick="RtoLogin()">已有账号？请登录</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+</html>

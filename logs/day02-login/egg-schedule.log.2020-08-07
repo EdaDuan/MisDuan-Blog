@@ -1,0 +1,192 @@
+2020-08-07 00:25:44,152 INFO 16872 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:25:44,152 INFO 16872 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:25:44,152 INFO 16872 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:28:27,103 INFO 7852 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:28:27,103 INFO 7852 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:28:27,103 INFO 7852 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:30:39,685 INFO 2188 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:30:39,685 INFO 2188 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:30:39,685 INFO 2188 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:32:23,461 INFO 15660 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:32:23,461 INFO 15660 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:32:23,461 INFO 15660 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:33:47,711 INFO 8356 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:33:47,711 INFO 8356 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:33:47,711 INFO 8356 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:33:47,914 INFO 3144 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 14172089ms at 2020-08-07 04:30:00.003
+2020-08-07 00:33:47,915 INFO 3144 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 84372086ms at 2020-08-08 00:00:00.001
+2020-08-07 00:33:47,916 INFO 3144 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 84373085ms at 2020-08-08 00:00:01.001
+2020-08-07 00:35:35,722 INFO 10916 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:35:35,722 INFO 10916 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:35:35,722 INFO 10916 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:35:35,723 INFO 5992 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:35:35,723 INFO 5992 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:35:35,723 INFO 5992 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:35:37,770 INFO 8028 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:35:37,770 INFO 8028 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:35:37,770 INFO 8028 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:35:37,915 INFO 17272 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:35:37,915 INFO 17272 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:35:37,915 INFO 17272 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:35:39,032 INFO 9708 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:35:39,032 INFO 9708 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:35:39,032 INFO 9708 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:36:49,897 INFO 6248 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:36:49,897 INFO 6248 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:36:49,897 INFO 6248 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:36:49,897 INFO 15972 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:36:49,897 INFO 15972 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:36:49,897 INFO 15972 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:42:07,381 INFO 1696 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:42:07,381 INFO 1696 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:42:07,381 INFO 1696 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:42:07,381 INFO 12188 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:42:07,381 INFO 12188 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:42:07,381 INFO 12188 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:43:55,368 INFO 4260 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:43:55,368 INFO 4260 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:43:55,368 INFO 4260 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:43:55,375 INFO 13516 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:43:55,375 INFO 13516 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:43:55,375 INFO 13516 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:45:31,414 INFO 5700 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:45:31,414 INFO 5700 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:45:31,414 INFO 5700 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:45:31,418 INFO 10844 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:45:31,418 INFO 10844 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:45:31,418 INFO 10844 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:46:19,884 INFO 3068 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:46:19,884 INFO 3068 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:46:19,884 INFO 3068 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:46:19,894 INFO 16996 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:46:19,894 INFO 16996 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:46:19,894 INFO 16996 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:47:30,276 INFO 12460 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:47:30,276 INFO 12460 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:47:30,276 INFO 12460 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:47:30,278 INFO 15132 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:47:30,278 INFO 15132 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:47:30,278 INFO 15132 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:47:59,030 INFO 11492 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:47:59,030 INFO 11492 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:47:59,030 INFO 11492 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:47:59,043 INFO 15400 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:47:59,043 INFO 15400 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:47:59,043 INFO 15400 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:48:34,533 INFO 14696 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:48:34,533 INFO 14696 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:48:34,533 INFO 14696 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:48:34,534 INFO 17240 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:48:34,534 INFO 17240 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:48:34,534 INFO 17240 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:50:38,377 INFO 8272 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:50:38,377 INFO 8272 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:50:38,380 INFO 8272 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:50:38,435 INFO 14916 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:50:38,436 INFO 14916 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:50:38,436 INFO 14916 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:54:42,068 INFO 15440 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:54:42,068 INFO 15440 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:54:42,068 INFO 15440 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:54:42,077 INFO 4116 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:54:42,077 INFO 4116 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:54:42,077 INFO 4116 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:56:42,486 INFO 6716 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:56:42,486 INFO 6716 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:56:42,486 INFO 6716 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:56:42,486 INFO 16432 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:56:42,486 INFO 16432 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:56:42,486 INFO 16432 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:56:55,689 INFO 16412 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 00:56:55,689 INFO 16412 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 00:56:55,689 INFO 16412 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 00:56:55,882 INFO 16156 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 12784122ms at 2020-08-07 04:30:00.004
+2020-08-07 00:56:55,883 INFO 16156 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 82984118ms at 2020-08-08 00:00:00.001
+2020-08-07 00:56:55,884 INFO 16156 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 82985117ms at 2020-08-08 00:00:01.001
+2020-08-07 01:06:21,147 INFO 2872 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 01:06:21,147 INFO 2872 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 01:06:21,148 INFO 2872 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 01:06:21,156 INFO 13964 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 01:06:21,156 INFO 13964 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 01:06:21,156 INFO 13964 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 01:06:21,180 INFO 2348 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 01:06:21,180 INFO 2348 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 01:06:21,181 INFO 2348 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 07:16:16,413 INFO 1720 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 76423591ms at 2020-08-08 04:30:00.004
+2020-08-07 07:16:16,413 INFO 1720 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 60223587ms at 2020-08-08 00:00:00.000
+2020-08-07 07:16:16,414 INFO 1720 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 60224587ms at 2020-08-08 00:00:01.001
+2020-08-07 07:16:16,167 INFO 8288 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 07:16:16,167 INFO 8288 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 07:16:16,167 INFO 8288 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 07:16:17,495 INFO 5228 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 07:16:17,495 INFO 5228 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 07:16:17,495 INFO 5228 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 11:06:39,774 INFO 13512 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 11:06:39,774 INFO 13512 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 11:06:39,774 INFO 13512 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 11:06:42,026 INFO 2396 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 11:06:42,026 INFO 2396 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 11:06:42,026 INFO 2396 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 11:52:54,223 INFO 14160 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 11:52:54,223 INFO 14160 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 11:52:54,223 INFO 14160 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 13:42:48,859 INFO 15252 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 13:42:48,859 INFO 15252 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 13:42:48,859 INFO 15252 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 13:42:50,179 INFO 14056 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 13:42:50,179 INFO 14056 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 13:42:50,179 INFO 14056 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 13:42:51,293 INFO 6136 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 13:42:51,293 INFO 6136 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 13:42:51,293 INFO 6136 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 14:18:22,267 INFO 5004 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 14:18:22,267 INFO 5004 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 14:18:22,267 INFO 5004 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 15:38:31,203 INFO 12824 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 15:38:31,203 INFO 12824 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 15:38:31,203 INFO 12824 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 15:38:33,086 INFO 12228 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 15:38:33,086 INFO 12228 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 15:38:33,086 INFO 12228 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 15:57:05,747 INFO 7432 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 15:57:05,747 INFO 7432 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 15:57:05,747 INFO 7432 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 15:57:54,646 INFO 9184 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 15:57:54,646 INFO 9184 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 15:57:54,646 INFO 9184 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 15:58:43,780 INFO 12124 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 15:58:43,780 INFO 12124 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 15:58:43,780 INFO 12124 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 15:58:54,148 INFO 1516 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 15:58:54,148 INFO 1516 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 15:58:54,148 INFO 1516 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 16:50:59,220 INFO 12860 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 16:50:59,220 INFO 12860 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 16:50:59,220 INFO 12860 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 16:51:00,851 INFO 4744 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 16:51:00,851 INFO 4744 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 16:51:00,851 INFO 4744 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 16:51:34,098 INFO 13760 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 16:51:34,098 INFO 13760 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 16:51:34,098 INFO 13760 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 17:08:09,582 INFO 12576 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 17:08:09,582 INFO 12576 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 17:08:09,582 INFO 12576 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 17:08:10,939 INFO 7672 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 17:08:10,939 INFO 7672 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 17:08:10,939 INFO 7672 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 19:23:05,131 INFO 5428 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 32814873ms at 2020-08-08 04:30:00.004
+2020-08-07 19:23:05,132 INFO 5428 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 16614869ms at 2020-08-08 00:00:00.001
+2020-08-07 19:23:05,132 INFO 5428 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 16615868ms at 2020-08-08 00:00:01.000
+2020-08-07 19:23:04,791 INFO 12548 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 19:23:04,791 INFO 12548 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 19:23:04,791 INFO 12548 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-07 19:23:06,411 INFO 13228 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-07 19:23:06,411 INFO 13228 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-07 19:23:06,411 INFO 13228 [egg-schedule]: register schedule E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-08 00:00:00,092 INFO 5428 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399985ms at 2020-08-09 00:00:00.077
+2020-08-08 00:00:00,056 INFO 13228 [Job#159681600000960442752861001] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-08-08 00:00:00,093 INFO 13228 [Job#159681600000960442752861001] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 33ms
+2020-08-08 00:00:01,000 INFO 13228 [Job#159681600099960443648524001] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-08-08 00:00:01,016 INFO 13228 [Job#159681600099960443648524001] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 16ms
+2020-08-08 00:00:01,029 INFO 5428 [Timer] E:\ThreeCN\web\华清js\nodejs\node\day02-login\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86400000ms at 2020-08-09 00:00:01.029

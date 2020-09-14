@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="Chen" content="CVPR2018-弱监督语义分割-Revisiting Dilated Convolution">
+    <title>Revisiting Dilated Convolution</title>
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/article.css">
+    <!--设置根目录，target-->
+    <base href="" target="_parent">
+</head>
+<body>
+<div class="color"></div>
+<!--Head-->
+<div id="head" class="clearfix leayer">
+    <ul class="fl">
+        <li>
+            <a href="../index.html" class="logo">Chen'Blog - 所学与所思</a>
+        </li>
+    </ul>
+    <ul class="fr clearfix">
+        <li class="fl headItem aboutBlog">关于博客</li>
+        <li class="fl headItem connectMe">联系博主</li>
+        <li class="fl">
+            <div class="searchBox fl">
+                <input type="text" class="inputText" onfocus="search(this)" onblur="blurr(this)">
+                <div class="placeholder">
+                    <span class="iconfont">&#xe60f</span>
+                    <span>输入关键字搜索博客</span>
+                </div>
+            </div>
+            <button class="searchButton fl" onclick="searchclick(this)">搜 索</button>
+        </li>
+    </ul>
+</div>
+<!--Middle-->
+<div id="middle" class="clearfix leayer">
+    <!--leftNav-->
+    <div id="leftNav" class="fl">
+        <div class="headImg">
+            <div>
+                <img src="../img/head.png" alt="">
+            </div>
+            <span>主页已经被访问</span><span class="numVisitorALl"></span><span>次</span>
+        </div>
+        <div class="bottomComtent">
+            <div class="title">文章归档:</div>
+            <ul class = "catTag"></ul>
+        </div>
+        <div class="codeImg">
+            <span>相关资料关注公众号后获取：</span>
+            <div>
+                <img src="../img/codeImg.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--rightContent-->
+    <div id="rightContent" class="fr">
+        <div class="writer">
+            <h1>CVPR2018-弱监督语义分割-Revisiting Dilated Convolution</h1>
+            <p class="center" style="text-indent: 0em;line-height: 2; font-size: 12px">时间：2020-3-9</p>
+            <div class="line"></div>
+            <p><strong>摘要：</strong>在弱监督语义分割领域，如何通过图像级别的标签产生密集的目标定位区域一直是一个难以攻克的点。这篇paper从感受野的角度出发，重新回顾了空洞卷积的作用，并将空洞卷积首次应用于弱监督中的产生密集的目标定位区域。
+                <strong>欢迎关注左侧公众号获取更多弱监督论文阅读笔记</strong>
+            </p>
+            <h2>一、概述</h2>
+            <p> 尽管弱监督语义分割的方法取得了显著的进展，但是弱监督分割方法的效果仍然不如全监督分割方法。作者认为二者性能上的差距主要来自于难以使用图像级的监督来训练神经网络以生成高质量的密集目标定位图。如下图，这是在这篇论文之前最优秀的使用图像级的监督来生成目标定位图的方法CAM <span style="color: #00dc50">[1]</span> 对目标定位的效果。
+</p>
+            <img src="images/weaky/rd1.png" alt="cam效果" style="width: 35%">
+            <p>可以看到，CAM产生的定位区域通常很稀疏，常常定位目标最具判别力的区域（比如说鸟类的头部、人的头部以及躯干）。所以说CAM的定位是稀疏而不完整。但是目前很多优秀的弱监督语义分割模型的都要依赖于CAM的定位结果。比如我上一篇博客提到的<a href="weakySemantic_SEC.html">SEC</a> <span style="color: #00dc50">[2]</span> 。所以说，十分有必要去提高定位结果的完整性与密集性。这也是这一篇论文的出发点与意义所在。</p>
+            <h2>二、方法详解</h2>
+            <p>作者在CAM的基础上做了一个实验：将最后一层的卷积层替换为不同扩张率的空洞卷积。再使用CAM的方法去定位。</p>
+            <img src="images/weaky/rd2.png" alt="CAM框架" style="width: 55%">
+            <p style="text-align:  center">CAM框架</p>
+            <img src="images/weaky/rd3.png" alt="本文框架" style="width: 50%">
+            <p style="text-align: center">本文框架</p>
+            <p>可以看到，随着扩张率d的增大，定位结果开始变得密集而完整。对此，作者给出的解释是：随着扩张率的增大，卷积核感受野也随之变大，使得周围具有判别力的特征转移到那些不具有判别力的区域，从而使得目标原本被注意不到的地方被注意到。但是扩张率的增大也带来了一个新的问题—会使得那些不属于这个目标的区域也被注意到（如d=9的情况，有很大一部分定位区域不属于狗这个目标）。于是，为了解决这个问题，作者又提出了一个方法—anti-noise fusion strategy。我们可以观察到，对应不同的d产生的定位区域如果能融合在一起实际上就能产生一个密集而完整的定位图：</p>
+            <img src="images/weaky/rd4.png" alt="anti-noise fusion strategy" style="width: 50%">
+            <p>那么anti-noise fusion strategy是怎么做的呢？作者注意到，定位结果与目标重合的区域实际上每个定位图都有，而定位结果与目标不重合的区域在不同的扩张下表现出多样性。为了消除定位结果与目标不重合的区域，作者对不同扩张卷积块生成的定位映射进行平均运算(d = 3,6,9)，然后，将平均图与标准卷积(d = 1)的定位图中相加，生成最终的定位图。这样，就既不会丢失标准卷积所定位出的精确区域又使得定位结果与目标不重合的区域被消除。</p>
+            <p>以下是使用作者所提出的方法产生的可视化定位效果：</p>
+            <img src="images/weaky/rd5.png" alt="效果" style="width: 60%">
+
+            <h3>三、总结与反思</h3>
+            <p>我认为扩大感受野后，定位区域的扩大是显然的。感受野对应的是当前卷积核所能看到的原图的区域，你所能看到的区域越大，当然你就更有可能找到的更多具有判别力的区域。而之前CAM的训练方式感受野过小。所以它定位出来的的区域很稀疏 这里一块那里一块。</p>
+
+            <h3>引用</h3>
+            <p>1、CVPR_2016: Learning Deep Features for Discriminative Localization ↩︎</p>
+            <p>2、ECCV_2016:ECCV_2016:Seed, Expand and Constrain: Three Principlesfor Weakly-Supervised Image Segmentation ↩︎</p>
+
+
+        </div></div>
+</div>
+<!--bottomMeassage-->
+<div id="bottomMeassage" class="leayer"></div>
+
+
+</body>
+<script src="../js/article.js"></script>
+</html>

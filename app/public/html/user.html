@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MisDuan'Blog</title>
+  <link rel="stylesheet" href="../css/writeArticle.css">
+  <link rel="stylesheet" href="../css/visit.css">
+  <link rel="stylesheet" href="../css/user.css">
+  <script src="../js/axios.min.js"></script>
+  <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+  <script src="../js/getKey.js"></script>
+  <script src="../js/out.js"></script>
+  <script src="../js/visit.js"></script>
+  <script src="../js/update.js"></script>
+  <script src="../js/index.js"></script>
+  <script src="../js/user.js"></script>
+  <script src="../js/writeArticle.js"></script>
+</head>
+
+<body>
+  <div class="head" class="clearfix leayer">
+    <ul class="fl">
+      <li id="infouser"></li>
+      <li onclick="show()" class="personCen">个人中心</li>
+      <li onclick="out()" class="out">退出</li>
+    </ul>
+    <ul class="fr clearfix">
+      <li class="fl">
+        <div class="searchBox fl" id="search">
+          <input type="text" class="s_input" placeholder="请输入...">
+        </div>
+        <button class="searchButton fl" onclick="searchclick()">搜 索</button>
+      </li>
+    </ul>
+  </div>
+  <div id="middle" class="clearfix leayer">
+    <div id="leftNav" class="fl">
+      <div class="headImg">
+        <div class="img">
+          <input type="file" value="上传文件" id="uphead" multiple onchange="upImg()" />
+          <h5 class="status" style="display: none;">欢迎使用</h5></br>
+        </div>
+        <!-- <div class="img" onclick="updateImg()">
+          <input type="file" id="uphead" multiple onchange="upImg()" />
+        </div> -->
+        <div id="visit"></div>
+        <button class="btnArticle" onclick="writeArticle()">写文章</button>
+      </div>
+    </div>
+    <div class="rightC fl">
+      <p class="rightTitle">文章</p>
+      <div class="article">
+      </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
